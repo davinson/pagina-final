@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es-ve">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>Acerca de Ford Motors Venezuela</title>
+<meta name="description" content="Ford Autos Venezuela">
+<meta name="author" content="Davinson Garcia">
+<meta name="categories" content="Vehiculos">
+<link href="ex2.css" rel="stylesheet">
+<link href="Aliadas.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="./searchindex.js"></script>
+<script>
+function horactual(){
+var fecha= new Date();
+var horas= fecha.getHours();
+var minutos = fecha.getMinutes();
+var segundos = fecha.getSeconds();
+document.getElementById('contenedor').innerHTML=''+horas+':'+minutos+':'+segundos+'';
+setTimeout('horactual()',1000);
+}
+
+</head>
+<body onload="alert('Bienvenido a mi web');">
+
+<SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value=='123456' && document.form.login.value=='admin'){  
+alert('ha entrado exitosamente'); 
+    } 
+    else{ 
+alert('Porfavor ingrese, nombre de usuario y contraseña correctos');" 
+ 
+    } 
+} 
+</SCRIPT> 
+
+<div id="container">
+<div id="wb_Image1">
+<img src="http://www.rrsoftware.hu/wp-content/uploads/2016/04/2000px-Ford_Motor_Company_Logo-1200x480.png" id="Image1" alt=""></div>
+<div id="wb_Heading1">
+<h1 id="Heading1">Ford Motors Venezuela</h1></div>
+<div id="wb_Heading2">
+<h5 id="Heading2">RIF J-00014864-3</h5></div>
+<!-- Hora Actual -->
+<div id="Html1">
+         
+<p>La fecha Actual es: </p> <script> var f=new Date(); var ano = f.getFullYear(); var mes = f.getMonth(); var dia = f.getDate(); var estiloDia; var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"); var diasMes = new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31); var diaMaximo = diasMes[mes]; if (mes == 1 && (((ano % 4 == 0) && (ano % 100 != 0)) || (ano % 400 == 0))) diaMaximo = 29; document.write('<div class="mifecha2">'); document.write('<div class="mesano">' + meses[mes] + ' de  ' + ano + '</div>'); for (i=1; i<=diaMaximo; i++){if(i == dia) estiloDia = "diaactual"; else estiloDia = "dia"; document.write('<div class="' + estiloDia + '">' + i + '</div>');} document.write('</div>'); </script></div>
+<label for="" id="Label19" onclick="window.location.href='#';return false;">↑Top</label>
+<div id="Html2">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Hora Actual:<html>
+<head>
+    <title>Reloj con segundero dinamico</title>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script language="JavaScript"> 
+
+    function mueveReloj(){ 
+        momentoActual = new Date() 
+        hora = momentoActual.getHours() 
+        minuto = momentoActual.getMinutes() 
+        segundo = momentoActual.getSeconds() 
+
+        horaImprimible = hora + " : " + minuto + " : " + segundo 
+
+        document.form_reloj.reloj.value = horaImprimible 
+
+        //La función se tendrá que llamar así misma para que sea dinámica, 
+        //de esta forma:
+
+        setTimeout(mueveReloj,1000)
+    }
+
+</script> 
+
+</head> 
+
+<body onload="mueveReloj()"> 
+
+    <form name="form_reloj"> 
+        <input type="text" name="reloj" size="10"> 
+    </form> 
+
+</body>
+</div>
+<hr id="Line1">
+<form name="SiteSearch1_form" id="SiteSearch1_form" accept-charset="UTF-8" onsubmit="return searchPage(features)">
+<input type="text" id="SiteSearch1" name="SiteSearch1" value="" spellcheck="false" placeholder="Buscar en Ford Motors"></form>
+<input type="button" id="Button1" onclick="searchPage();return false;" name="Busqueda" value="Busqueda">
+<nav id="wb_TabMenu1">
+<ul id="TabMenu1">
+<li><a href="./index.html">Inicio</a></li>
+<li><a href="./Promociones.html" title="Promociones">Promociones</a></li>
+<li><a href="./Historia.html" title="Historia">Historia</a></li>
+<li><a href="./Productos.html" title="Productos">Productos</a></li>
+<li><a href="./Contactenos.html" title="Contactenos">Contactenos</a></li>
+<li><a href="./Aliadas.html" title="Empresas Aliadas" class="active">Empresas Aliadas</a></li>
+<li><a href="./Mapa.html" title="Mapa de Imagen ">Mapa de Imagen </a></li>
+</ul>
+</nav>
+<div id="wb_Image5">
+<a href="https://www.youtube.com/user/FordVenezuela"><img src="https://www.ford.com.ve/content/ford/ve/es_ve/configuration/navigation-config/footer-config/_jcr_content/footer/socialShare/image_1768376088/image.imgs.full.high.png/1496574814432.png" id="Image5" alt=""></a></div>
+<div id="wb_Image6">
+<a href="https://www.facebook.com/FordVenezuela"><img src="https://www.ford.com.ve/content/ford/ve/es_ve/configuration/navigation-config/footer-config/_jcr_content/footer/socialShare/image/image.imgs.full.high.png/1496917141144.png" id="Image6" alt=""></a></div>
+<div id="wb_Image7">
+<a href="https://twitter.com/fordvenezuela"><img src="https://www.ford.com.ve/content/ford/ve/es_ve/configuration/navigation-config/footer-config/_jcr_content/footer/socialShare/image_1458317957/image.imgs.full.high.png/1496574672936.png" id="Image7" alt=""></a></div>
+<div id="wb_Image8">
+<a href="https://www.instagram.com/fordvenezuela/"><img src="https://www.ford.com.ve/content/ford/ve/es_ve/configuration/navigation-config/footer-config/_jcr_content/footer/socialShare/image_2083417780/image.imgs.full.high.png/1496574871886.png" id="Image8" alt=""></a></div>
+<div id="wb_Text1">
+<span id="wb_uid0"><strong>Empresa Aliadas</strong></span></div>
+<div id="wb_Image2">
+<img src="https://2.bp.blogspot.com/-h98pc4pn1e0/WNKlVN5cR3I/AAAAAAAAAEY/6cyULf7pHvovkKz3vMcLLekHQHj-iCOTwCLcB/s1600/autos.png" id="Image2" alt="">
+</div>
+<div id="wb_Shape1">
+<a href="http://www.audi.com.ve/"><img src="images/img0001.png" id="Shape1" alt=""></a></div>
+<div id="wb_Shape2">
+<a href="http://www.mazda.com/"><img src="images/img0002.png" id="Shape2" alt=""></a></div>
+<div id="wb_Shape3">
+<a href="https://www.bmw.es/es/index.html"><img src="images/img0003.png" id="Shape3" alt=""></a></div>
+<div id="wb_Shape4">
+<a href="http://www.chevrolet.com.ve/"><img src="images/img0004.png" id="Shape4" alt=""></a></div>
+<div id="wb_Shape5">
+<a href="http://www.nissan.net.ve/"><img src="images/img0005.png" id="Shape5" alt=""></a></div>
+<div id="wb_Shape6">
+<a href="http://www.peugeot.com.ve/"><img src="images/img0006.png" id="Shape6" alt=""></a></div>
+<div id="wb_Shape7">
+<a href="http://www.renault.com.ve/"><img src="images/img0007.png" id="Shape7" alt=""></a></div>
+<div id="wb_Shape8">
+<a href="http://toyota.com.ve"><img src="images/img0008.png" id="Shape8" alt=""></a></div>
+</div>
+<footer id="PageFooter1">
+   <div id="wb_Text2">
+      <span id="wb_uid1"><br>NOEL MOTORS LA TRIlNIDAD, C.A. URB LA TRINIDAD, AV.PPAL CON AV. FRAY FCO VITTORIA. DEPARTAMENTO VENTAS.<br>CARACAS. DISTRITO CAPITAL. <strong>TELEFONO</strong>: 0212-9457511 .<strong>EMAIL</strong>: fcntriniti@gmail.com<br>Davinson Garcia 2018 Todos los derechos Reservados<br>Instituto&nbsp; Universitario Politecnico &quot;Santiago Mariño&quot;</span></div>
+</footer>
+<script language="JavaScript">
+alert("Has accedido a nuestros socios y aliados");
+</script><script src="Aliadas.js"></script>
+</body>
+</html>
